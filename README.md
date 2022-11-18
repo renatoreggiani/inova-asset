@@ -47,8 +47,8 @@ Como regra de recomendação de 3 fundos para cada perfil, primeiro os fundos fo
 
 ### Modelo ER
 
-![alt text](https://github.com/renatoreggiani/inova-asset/blob/main/imagens/ERM.png)
+![alt text](https://github.com/renatoreggiani/inova-asset/blob/main/imagens/MER.png)
 
 ### Diagrama de classes
 
-![alt text](https://github.com/renatoreggiani/inova-asset/blob/main/imagens/diagrama de classes.png)
+![alt text](https://github.com/renatoreggiani/inova-asset/blob/main/imagens/diagrama_classes.png)
