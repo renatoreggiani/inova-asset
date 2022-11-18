@@ -1,0 +1,29 @@
+<div *ngIf="exibirBotaoPerfis">
+  <section class="container">
+    <h2 class="formulario__titulo">Perfil do Investidor</h2>
+
+    <div class="formulario">
+      <div class="form-field">
+        <button mat-raised-button color="primary" (click)="onClickPerfil(0)">Conservador</button>
+      </div>
+
+      <div class="form-field">
+        <button mat-raised-button color="accent" (click)="onClickPerfil(1)">Moderado</button>
+      </div>
+
+      <div class="form-field">
+        <button mat-raised-button color="warn" (click)="onClickPerfil(2)">Arrojado</button>
+      </div>
+    </div>
+  </section>
+  <mat-divider></mat-divider>
+</div>
+<div *ngIf="response.length > 0">
+  <br>
+  <br>
+  <br>
+  <h1 style="color: black">Fundos indicados para o perfil <b style="{{identificarCor()}}">{{identificarPerfilSelecionado()| lowercase}}</b></h1>
+  <app-fundos [setResponse]="response"></app-fundos>
+  <br>
+  <button mat-raised-button color="primary" (click)="onClickVoltar()">Voltar</button>
+</div>
