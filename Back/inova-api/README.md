@@ -1,2 +1,6 @@
-# Scraper-API
-Spring boot project to scrape ads from Ikman.lk and Riyasewana.com
+# INOVA-API
+
+Para executar a aplicação incluir os parametros abaixo com usuario e senha do banco de dados:
+
+-Dspring.datasource.username=usuario 
+-Dspring.datasource.password=senha
