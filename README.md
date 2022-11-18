@@ -19,7 +19,7 @@ Para subsidiar a criação do projeto disponibilizamos o arquivo fundos.csv cont
 dos fundos de investimento da Inova Asset Management e outro arquivo cotas.csv contendo
 respectivamente os valores das cotas destes fundos nos últimos 12 meses.
 
-Como regra de recomendação de 3 fundos para cada perfil, primeiro o fundos foram ordenados por nivel de risco, do baixo até alto, e em seguida ordenados pelo desvio padrão historico do fundo. Com os fundo ordenados a pagina recomenda os 3 primeiros fundos para o perfil Conservador, os 3 fundos mais proximos a mediana para o perfil Moderado e os 3 últimos fundos para o perfil Arrojado.
+Como regra de recomendação de 3 fundos para cada perfil, primeiro os fundos foram ordenados por nível de risco, do baixo até alto, e em seguida ordenados pelo desvio padrão histórico do fundo. Com os fundos ordenados a página recomenda os 3 primeiros fundos para o perfil Conservador, os 3 fundos mais próximos a mediana para o perfil Moderado e os 3 últimos fundos para o perfil Arrojado.
 
 ---
 ## Frontend 
@@ -40,3 +40,15 @@ Como regra de recomendação de 3 fundos para cada perfil, primeiro o fundos for
 ### Tela Arrojado
 
 ![alt text](https://github.com/renatoreggiani/inova-asset/blob/main/imagens/tela-arrojado.PNG)
+
+
+---
+## Backend
+
+### Modelo ER
+
+![alt text](https://github.com/renatoreggiani/inova-asset/blob/main/imagens/ERM.png)
+
+### Diagrama de classes
+
+![alt text](https://github.com/renatoreggiani/inova-asset/blob/main/imagens/diagrama de classes.png)
