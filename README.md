@@ -19,6 +19,8 @@ Para subsidiar a criação do projeto disponibilizamos o arquivo fundos.csv cont
 dos fundos de investimento da Inova Asset Management e outro arquivo cotas.csv contendo
 respectivamente os valores das cotas destes fundos nos últimos 12 meses.
 
+### Regra de negócio da implementação 
+
 Como regra de recomendação de 3 fundos para cada perfil, primeiro os fundos foram ordenados por nível de risco, do baixo até alto, e em seguida ordenados pelo desvio padrão histórico do fundo. Com os fundos ordenados a página recomenda os 3 primeiros fundos para o perfil Conservador, os 3 fundos mais próximos a mediana para o perfil Moderado e os 3 últimos fundos para o perfil Arrojado.
 
 ---
