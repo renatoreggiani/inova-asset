@@ -26,6 +26,8 @@ Como regra de recomendação de 3 fundos para cada perfil, primeiro os fundos fo
 ---
 ## Frontend 
 
+Para o frontend foi utilizado Angular CLI versão 15.0.0.
+
 ### Tela Inicial
 
 ![alt text](https://github.com/renatoreggiani/inova-asset/blob/main/imagens/tela-inicial.PNG)
@@ -46,6 +48,8 @@ Como regra de recomendação de 3 fundos para cada perfil, primeiro os fundos fo
 
 ---
 ## Backend
+
+Para o backend foi utilizado Springboot versão 2.5.5.
 
 ### Modelo ER
 
