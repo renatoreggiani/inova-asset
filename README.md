@@ -49,7 +49,7 @@ Para o frontend foi utilizado Angular CLI versão 15.0.0.
 ---
 ## Backend
 
-Para o backend foi utilizado Springboot versão 2.5.5.
+Para o backend foi utilizado Spring Boot versão 2.5.5.
 
 ### Modelo ER
 
